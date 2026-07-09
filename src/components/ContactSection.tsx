@@ -25,7 +25,7 @@ export function ContactSection() {
     formData.append("_captcha", "false");
 
     try {
-      const response = await fetch("https://formsubmit.co/vishnubanavath5@gmail.com", {
+      const response = await fetch("https://formsubmit.co/24c9f4230c8577d171c34d7cded5da51", {
         method: "POST",
         headers: {
           Accept: "application/json",
@@ -99,7 +99,7 @@ export function ContactSection() {
         {/* RIGHT */}
         <div className="p-8 md:p-16 lg:p-20 flex flex-col justify-between">
           <motion.form
-            action="https://formsubmit.co/vishnubanavath5@gmail.com"
+            action="https://formsubmit.co/24c9f4230c8577d171c34d7cded5da51"
             method="POST"
             onSubmit={onSubmit}
             initial={{ opacity: 0, y: 40 }}
